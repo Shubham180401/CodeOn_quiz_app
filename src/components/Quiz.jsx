@@ -68,7 +68,7 @@ export default function Quiz() {
 
   // animation from motiondiv
   const placeholderText = [
-    { type: "heading1", text: 'You scored ${score} out of ${questions}' },
+    { type: "heading1", text: "You scored ${score} out of ${questions}" },
   ];
   const updatedPlaceholderText = [...placeholderText];
   updatedPlaceholderText[0].text = `You scored ${score} out of ${questions}`;
@@ -83,7 +83,7 @@ export default function Quiz() {
 
   return (
     <motion.div
-      className="container text-center  bg-black"
+      // className="container text-center  bg-black"
       initial={{ x: 50, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       exit={{ x: 50, opacity: 0 }}
@@ -100,9 +100,21 @@ export default function Quiz() {
             <div className="score">
               {/* You scored {score} out of {questions.length} */}
               {updatedPlaceholderText.map((item, index) => {
-                 return <AnimatedText {...item} key={index} />;
+                return <AnimatedText {...item} key={index} />;
               })}
-              <button onClick={() => window.location.href='Home'}>Go to About page</button>
+
+              
+              <motion.button 
+                onClick={() => (window.location.href = "Home")}
+
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: 50, opacity: 0 }}
+                transition={{ duration: 1 }}
+              >
+                goto home
+              </motion.button>
+
             </div>
           </motion.div>
         ) : (
