@@ -102,6 +102,7 @@ export default function Quiz() {
               {updatedPlaceholderText.map((item, index) => {
                  return <AnimatedText {...item} key={index} />;
               })}
+              <button onClick={() => window.location.href='Home'}>Go to About page</button>
             </div>
           </motion.div>
         ) : (
