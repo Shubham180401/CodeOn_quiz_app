@@ -1,0 +1,38 @@
+[
+    {
+      "questionAsk":"What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?",
+      "answerOptions": [
+        { "optionAns": "false", "check": false },
+        { "optionAns": "false", "check": false },
+        { "optionAns": "true", "check": true },
+        { "optionAns": "false", "check": false }
+      ]
+    },
+    {
+      "questionAsk": "What is the right answer?What is the right answer?",
+      "answerOptions": [
+        { "optionAns": "false", "check": false },
+        { "optionAns": "false", "check": false },
+        { "optionAns": "true", "check": true },
+        { "optionAns": "false", "check": false }
+      ]
+    },
+    {
+      "questionAsk": "What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?",
+      "answerOptions": [
+        { "optionAns": "false", "check": false },
+        { "optionAns": "false", "check": false },
+        { "optionAns": "true", "check": true },
+        { "optionAns": "false", "check": false }
+      ]
+    },
+    {
+      "questionAsk": "What is the right answer?",
+      "answerOptions": [
+        { "optionAns": "false", "check": false },
+        { "optionAns": "false", "check": false },
+        { "optionAns": "true", "check": true },
+        { "optionAns": "false", "check": false }
+      ]
+    }
+]
