@@ -17,12 +17,15 @@ export default function Home() {
       exit={{ x: 50, opacity: 0 }}
       transition={{ duration: 1 }}
     >
-
       <div className="home">
+
+        {/* start from here */}
         <h1>Home</h1>
         <button onClick={() => (window.location.href = "/Quiz")}>
           lets play the game
         </button>
+        {/* end here */}
+      
       </div>
     </motion.div>
     </>
