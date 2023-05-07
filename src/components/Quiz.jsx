@@ -7,8 +7,7 @@ import React, { useState } from "react";
 import Result from './Result';
 
 // animation npm
-import { motion, AnimatePresence } from "framer-motion";
-import AnimatedText from "./AnimatedText";
+import { motion , AnimatePresence } from "framer-motion";
 
 export default function Game() {
 

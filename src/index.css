@@ -13,9 +13,17 @@ code {
 }
 
 body {
-  background-color: #92ab2e;
+  background-color: #2d215f;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.5;
 }

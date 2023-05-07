@@ -1,6 +1,7 @@
 import { BrowserRouter , Routes , Route} from 'react-router-dom';
 import React from 'react';
 
+import BG from './components/css/background.js';
 
 import Quiz from './components/Quiz';
 import Home from './components/Home';
@@ -10,8 +11,6 @@ function App() {
   return (
     <div className="App">
       {/* <Home/> */}
-
-
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />

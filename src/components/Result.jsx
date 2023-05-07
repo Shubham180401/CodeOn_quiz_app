@@ -1,12 +1,14 @@
 import "./css/quiz.css";
 
+// import IconHome from './icons/home.png';
+
 import questions from './questions.json';
 
 
 import React, { useState } from "react";
 
 // animation npm
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import AnimatedText from "./AnimatedText";
 
 export default function Result(props) {
@@ -35,7 +37,7 @@ export default function Result(props) {
         exit={{ x: 50, opacity: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="Quiz">
+        <div className="Result">
           
             <motion.div
               // className="container text-center  bg-black"
@@ -58,17 +60,25 @@ export default function Result(props) {
                     })}
 
                     <motion.button
-                      onClick={() => (window.location.href = "Home")}
+                      onClick={() => {
+                        (document.querySelector('.invisible').style.display = 'none');
+                        (window.location.href = "Home");
+                        }
+                      }
 
                       // initial={{ y: 50, opacity: 0 }}
                       // animate={{ y: 0, opacity: 1 }}
                       // exit={{ y: 50, opacity: 0 }}
                       // transition={{ duration: 1 }}
-                      // whileHover={{scale:1.1}}
-                      // whileTap={{scale:0.9}}
-                      // className="hello"
+                      // whileHover={{scale: 1.1}}
+                      // whileTap={{scale: 10}}
+                      className="btn"
+                      
                     >
-                      goto home
+                      {/* <img src={IconHome} alt="home" /> */}
+                      <div className="invisible">
+                        goto home
+                      </div>
                     </motion.button>
                   </div>
                 </motion.div>
