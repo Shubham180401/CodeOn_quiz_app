@@ -20,9 +20,18 @@ export default function Home() {
       <div className="home">
 
         {/* start from here */}
-        <h1>Home</h1>
-        <button onClick={() => (window.location.href = "/Quiz")}>
-          lets play the game
+<header >
+		<h1>Quiz App</h1>
+	</header>
+
+        <main>
+		<section class="intro">
+			<h2 style="font-size: 26px;text-align: center;">Welcome to the Quiz App</h2>
+			<p style="text-align: center;">Test your knowledge with these quizzes!</p>    
+		</section>
+	</main>
+        <button class="start-button" onClick={() => (window.location.href = "/Quiz")}>
+         Start Quiz
         </button>
         {/* end here */}
       
