@@ -1,5 +1,5 @@
 import "./css/quiz.css";
-
+import "./css/home.css";
 // import Quiz from "./Quiz";
 
 import React from "react";
