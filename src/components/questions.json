@@ -1,38 +1,38 @@
 [
     {
-      "questionAsk":"What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?",
+      "questionAsk":"There are two clocks of different colors: The green clock is broken and doesn't run at all, but the yellow clock loses one second every 24 hours. Which clock is more accurate?",
       "answerOptions": [
-        { "optionAns": "false", "check": false },
-        { "optionAns": "false", "check": false },
-        { "optionAns": "true", "check": true },
-        { "optionAns": "false", "check": false }
+        { "optionAns": "The green clock", "check": true },
+        { "optionAns": "The yellow clock", "check": false },
+        { "optionAns": "None of them", "check": false },
+        { "optionAns": "Both", "check": false }
       ]
     },
     {
-      "questionAsk": "What is the right answer?What is the right answer?",
+      "questionAsk": "Divide 30 by half and add 10. The answer is?",
       "answerOptions": [
-        { "optionAns": "false", "check": false },
-        { "optionAns": "false", "check": false },
-        { "optionAns": "true", "check": true },
-        { "optionAns": "false", "check": false }
+        { "optionAns": "40.5", "check": false },
+        { "optionAns": "50", "check": false },
+        { "optionAns": "70", "check": true },
+        { "optionAns": "None of them", "check": false }
       ]
     },
     {
-      "questionAsk": "What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?What is the right answer?",
+      "questionAsk": "?What was the most watched series on Netflix in last 2 years?",
       "answerOptions": [
-        { "optionAns": "false", "check": false },
-        { "optionAns": "false", "check": false },
-        { "optionAns": "true", "check": true },
-        { "optionAns": "false", "check": false }
+        { "optionAns": "Money Heist", "check": false },
+        { "optionAns": "Stranger Things", "check": true },
+        { "optionAns": "Lucifer", "check":false },
+        { "optionAns": "Wednesday", "check": false }
       ]
     },
     {
-      "questionAsk": "What is the right answer?",
+      "questionAsk": "You're at 4th place right now in a race. What place will you be in when you pass the person in 3rd place?",
       "answerOptions": [
-        { "optionAns": "false", "check": false },
-        { "optionAns": "false", "check": false },
-        { "optionAns": "true", "check": true },
-        { "optionAns": "false", "check": false }
+            { "optionAns": "1st", "check": false },
+        { "optionAns": "2nd", "check": false },
+        { "optionAns": "3rd", "check": true },
+            { "optionAns": "None of these", "check": false }
       ]
     }
 ]
