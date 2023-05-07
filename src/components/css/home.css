@@ -1,3 +1,34 @@
 .home {
     z-index: 22;
 }
+body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+    background-color: #643A6B;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  
+  main {
+    padding: 50px;
+  }
+  
+  button {
+    background-color:#F97B22 ;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 170px 90px 10px 300px;
+  }
+  
